@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By removing the unchaged lines of code there was a lot less to comb through.
+I didn't see the markings of the specific lines like shown in the video.
+Narrowing down the altered sections is extremely helpful.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Absolutely.
+Especially in the case of object oriented programming,
+where there is an emphasis on extensibility and compartmentalization
+having easy access to previous versions of code can make it
+simpler to make the changes allowing you to churn out newer versions faster.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+Avoid the issue of making too many or too little commits depending on how the automatic VCS is scheduled.
+This, however, is only true if you pick the appropriate times to commit every time.
+Otherwise, you fall victim to user error and make the smae mistakes you sought to avoid
+with an automated VCS.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git which is more geared towards coders understands that there will most likely
+be an interdependence between files and as such it would be better to commit all
+related files at once. Other VCSs don't cater to the same audience. Google Docs for example
+is geared towards the use of word documents (papers, reports, stories) that more than likely
+will not have the smae requirements.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log can help you find the serial ID for the specific version of the file your interested.
+Git diff will lay out the differences between that version and any other you have recorded the ID for.
+
+How might using version control make you more confident to make changes that could break something?
+
+The big fear in making massive changes come from the fear that you won't be able to undo what you've
+done.  With version control, you can make any changes you want with full confidence that everything
+you've done up to that point is safe.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git for the version control of my code. I plan on improving my Java as well as getting
+into Android development and a VCS like git would be useful in those endeavors.

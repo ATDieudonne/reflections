@@ -23,3 +23,9 @@ code from anywhere for manipulation on your local machine. Use this when you wan
 play with code from another machine.  Fork is GitHub's version of clone and should be used
 for the same reasons but between GitHub repositories only. Fork comes with the added feature
 of tracibility to the original author for the repository as well as other statistics.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having a copy of the last known state of the remote stored locally provides a starting
+point for the reconstruction of a new branch of changes the may happen in the remote
+repository.

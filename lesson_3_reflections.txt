@@ -35,3 +35,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Without GitHub, I guess I'd have to use another repository service.  Technically I could
 use a complicated clone scheme but the overhead required to keep track of everything
 would be too great.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You'd normally want to make changes in a separate branch when you're not sure whether or
+not the change in question will break your code.  The benefits include, not blowing up
+your stable code and if using GitHub, giving collaborators a chance to review your code
+before you commit to the master branch.
